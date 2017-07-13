@@ -39,24 +39,27 @@ hr {
 }
 
 @media (min-width: 992px) {
-    .product .col-md-7 {
+    .product .col-md-5 {
         padding-top: 160px;
     }
 }
 
-.product .col-md-7 h1 {
+.product .col-md-5 h1 {
     font-size: 50px;
     color: #2a6496;
 }
 
-.product .col-md-7 h1 span {
-    font-size: 24px;
+.product .col-md-5 h1 span {
+    font-size: 20px;
     color: #9999a5;
 }
 
-.product .col-md-7 p {
+.product .col-md-5 p {
     font-size: 20px;
 }
-.product .col-md-3 {
+.product .col-md-7 {
 	text-align: center;
+}
+.product .col-md-7 img{
+	width: 90%;
 }
