@@ -6,7 +6,11 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+@media (max-width: 400px) {
+	.carousel .btn {
+		display: none;
+	}
+}
 .carousel {
     margin-bottom: 20px;
 }
